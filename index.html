@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>ALGORITMOS II EXTRA</title>
+</head>
+<body>
+    <h2> ejercicios extra @bah.stuff</h2>
+    <h3> Para pasos intermedios: VER CONSOLA </h2>
+    <div class="main">
+        <span> 1.</span>
+        <span>Hueco disponible en el horario: </span>
+        <span id="availableHour">NINGUNO</span>
+        <button type="submit" onclick="reloadPage()">- BUSCAR -</button>
+    </div>
+    <div class="main">
+        <span>2.</span>
+        <div class="inputs">
+            <label for="count"> IMPORTE: </label>
+            <input type="number" id="count" min = "0" placeholder="-------">
+            <label for="cash"> ENTREGADO: </label>
+            <input type="number" id="cash" min = "0" placeholder="-------">
+            <button type="submit" class= "calculadora" onclick="calcularCambio()">- CALCULAR -</button>
+        </div>
+        <div class="outputs">
+            <div class="img">
+                <img src="img/1.png" alt="CAJA" id="caja">
+            </div>
+            <div class="numbers">
+                <span>Aquí tiene su cambio:</span>
+                <span id="printChanges">0.00 €</span>
+            </div>
+           
+        </div>
+
+    </div>
+    <div class="main">
+        <span>3.</span>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
